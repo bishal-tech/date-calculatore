@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-box {
+    background: rgb(131, 58, 180);
+    background: -moz-linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 229, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 229, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(29, 229, 253, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 550px;
+    padding: 20px;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cl-form input {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+}
+
+.cl-form label {
+    margin-bottom: 5px;
+}
+
+.cta-btn-1 {
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cl-form  input{
+        width: 100%;
+    }
+
+}
